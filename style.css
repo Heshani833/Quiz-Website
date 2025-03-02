@@ -71,3 +71,31 @@ body {
   font-weight: 700;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.home-content p {
+  font-size: 16px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+.home-content .start-btn {
+  width: 180px;
+  height: 50px;
+  background: darkmagenta;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  box-shadow: 0 o 10px darkmagenta;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.home-content .start-btn:hover {
+  background: darkblue;
+  box-shadow: none;
+}
